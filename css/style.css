@@ -1,0 +1,108 @@
+.thumbnail-caption {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	width: 120px;
+	margin-left: -60px;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 1em;
+	opacity: 1;
+	text-align: center;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+
+/*.dancers
+{
+	margin: -8px 0 0 -31px;
+}
+.musicians
+{
+	margin: -8px 0 0 -37px;
+}
+.models
+{
+	margin: -8px 0 0 -30px;
+}
+.actors
+{
+	margin: -8px 0 0 -27px;
+}
+.comedians
+{
+	margin: -8px 0 0 -40px;
+}
+.photographers
+{
+	margin: -8px 0 0 -58px;
+}
+.directors
+{
+	margin: -8px 0 0 -38px;
+}
+.creative-crew
+{
+	margin: -8px 0 0 -52px;
+}
+.tv-producers
+{
+	margin: -8px 0 0 -51px;
+}
+.event-managers
+{
+	margin: -8px 0 0 -60px;
+}
+.film-makers
+{
+	margin: -8px 0 0 -44px;
+}
+.ad-film-Productions
+{
+	margin: -8px 0 0 -77px;
+}
+.music-producers
+{
+	margin: -8px 0 0 -64px;
+}
+.theatre-groups
+{
+	margin: -8px 0 0 -60px;
+}
+.dance-companies
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -64px;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 1em;
+	opacity: 1;
+}
+.indie-productions
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -68px;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 1em;
+	opacity: 1;
+}*/
+
+.button-signup
+{
+	margin: 0px 50px 0px 50px;
+}
+
+.button-blog
+{
+	margin: 0px 0px 0px 50px;
+}
+
+.list-item li
+{
+	font-size: 17px;
+	margin-top: 10px;
+}

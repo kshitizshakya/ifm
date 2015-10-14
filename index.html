@@ -1,0 +1,84 @@
+<HTML>
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="MobileOptimized" content="320">
+
+		<!--main.css-->
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- jquery latest js-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+
+		<!-- supersized slider js and css-->
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+
+
+		<!-- fonts-->
+		<link href="//fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900" rel="stylesheet" type="text/css">
+		<link href="//fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+
+		
+
+
+	<script type="text/javascript">
+		
+
+	jQuery(function($){
+			$.supersized({
+				
+					// Functionality
+					slide_interval          :   5000,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					startwidth: 1024,  
+					startheight: 768,
+					transition_speed		:	1000,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[ {image : 'image/bulbs.jpg',title:'' },{image : 'image/lens.jpg'}]
+
+
+				});
+		    });
+        
+   
+	
+	</script>
+
+	</head>
+	<body>
+
+		<!-- home - slider -->
+		<div id="home-slider">
+
+            <div class="overlay"></div>
+
+            <header>
+                <div class="unsticky-nav">
+                    <div id="logo">
+                        <a id="goUp" href="#home-slider" title="Greenroom">
+                            <img src="homepage/_include/img/logo-w-sm.png" class="pull-left" alt="greenroom">    
+                        </a>
+                    </div>
+
+            </header>
+            
+            
+        </div>
+
+
+
+	</body>
+</HTML>
